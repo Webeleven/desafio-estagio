@@ -31,7 +31,7 @@ Você deve resolver esse problema com **PHP**.
 
 - A interface deve permitir ao usuário informar 2 números e selecionar o tipo de operação matemática desejada
 - Após clicar no botão "Calcular" o seu programa deve retornar o resultado da operação
-- Não é necessário se preocupar com a camada de apresentação e formatação da interface (CSS)
+- Não é necessário se preocupar com a camada de apresentação e formatação (CSS)
 
 As seguintes estruturas devem ser utilizadas:
 
