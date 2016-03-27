@@ -3,7 +3,7 @@ Para concorrer a nossa vaga de estágio em Desenvolvimento Web você deve:
 
 1. Criar um fork deste projeto
 2. Resolver os dois desafios descritos abaixo
-3. Depois de concluir, fazer um Pull Request informando seu e-mail
+3. Depois de concluir, fazer um Pull Request contendo os dois programas e informando seu e-mail
 4. Nós entraremos em contato para informar o seu desempenho e resultado
 
 Em caso de dúvidas entre em contato com teves@webeleven.com.br
