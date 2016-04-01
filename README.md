@@ -14,14 +14,13 @@ Você pode resolver esse problema com a sua **linguagem de programação favorit
 #### Problema: 
 Dado um numero inteiro N positivo e uma sequencia com N numeros inteiros, determinar o maior e o menor número da sequencia.
 
-Por exemplo, para N = 6 e a sequencia abaixo
+Por exemplo, se o usuário escolher N = 6 e depois informar a sequencia abaixo:
 
 >   -2  7  0  -5  8  4
 
-o seu programa deve retornar
+o seu programa deve retornar:
 
 > Maior número = 8
-
 > Menor número = -5
 
 ## Desafio 2
