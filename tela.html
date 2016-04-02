@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  fieldset {
+    text-align: center;
+    margin: 20% 45%; 
+  }
+</style>
+</head>
+<body>
+  <form method="post" action="./calculadora.php">
+    <fieldset>
+    <legend>Calculadora</legend>
+     <table>
+	<tr>
+	    <td><input type="number" name="primeiroNumero" required="required"></td>
+	</tr>
+	<tr>
+	    <td>
+	    <input type="radio" name="operacao" value="+" checked="checked"><strong>+</strong>
+	    <input type="radio" name="operacao" value="-"><strong>-</strong>
+	    <input type="radio" name="operacao" value="*"><strong>*</strong>
+	    <input type="radio" name="operacao" value="/"><strong>/</strong>
+	    </td>
+	</tr>
+	<tr>
+	    <td><input type="number" name="segundoNumero" required="required"></td>
+	</tr>
+	<tr>
+	    <td><input type="submit" name="comando" value="calcular"></td>
+	</tr>
+     </table> 
+    </fieldset>
+  </form>
+</body>
+
+<!--Autor:
+Renan Pallin
+renanpallin@gmail.com-->
+
