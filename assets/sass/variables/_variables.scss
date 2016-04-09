@@ -1,0 +1,40 @@
+/**
+ * Colors
+ */
+$color-gray: 				#333 !default;
+$color-gray-light: 			#eee !default;
+
+
+/**
+ * Typography
+ */
+$font-family-sans-serif:	sans-serif !default;
+$font-family-base:			$font-family-sans-serif !default;
+
+$font-size-base:			1em !default;
+$font-size-small:			0.8em !default;
+$font-size-large:			1.2em !default;
+
+$font-weight-light:			300 !default;
+$font-weight-normal:		400 !default;
+$font-weight-bold:			700 !default;
+
+
+/**
+ * Button style
+ */
+$button-default-color: 		#fff !default;
+$button-default-bg: 		darken(#428bca, 6.5%) !default;
+$button-default-border: 	darken($button-default-bg, 5%) !default;
+
+
+/**
+ * Color Message
+ */
+$success-text:				#3c763d !default;
+$success-bg:				#dff0d8 !default;
+$success-border:			darken($success-bg, 5%) !default;
+
+$danger-text:				#a94442 !default;
+$danger-bg:					#f2dede !default;
+$danger-border:				darken($danger-bg, 5%) !default;	
