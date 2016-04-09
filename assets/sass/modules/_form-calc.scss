@@ -1,0 +1,59 @@
+.form-container,
+.result-container {
+	max-width: 300px;
+	padding: 1em;
+}
+
+.form-container {
+	input[type="text"],
+	input[type="submit"],
+	select {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	input[type="text"],
+	select {
+		font-size: $font-size-large;
+		line-height: 2;
+		outline: none;
+		@include border-radius(3px);
+		padding: .3em .5em;
+
+		&:focus {
+			@include box-shadow(
+				0 0 3px 1px #ccc
+			);
+		}
+	}
+
+	select {
+		cursor: pointer;
+		border: none;
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+}
+
+.result-container {
+	width: 100%;
+
+	.message,
+	.result {
+		width: 100%;
+		text-align: center;
+		padding: 1em;
+	}
+
+	.message {
+		color: $danger-text;
+		background: $danger-bg;
+		border: 1px solid $danger-border;
+	}
+
+	.result {
+		color: $success-text;
+		background: $success-bg;
+		border: 1px solid $success-border;
+	}
+}

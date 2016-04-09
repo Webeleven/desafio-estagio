@@ -1,0 +1,72 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+            box-shadow: $shadow;
+}
+
+/**
+ * All browsers Flexbox
+ */
+@mixin display-flex() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin flex-wrap() {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+
+@mixin justify-content($position) {
+    -webkit-box-pack: $position;
+    -webkit-justify-content: $position;
+        -ms-flex-pack: $position;
+            justify-content: $position;
+}
+
+@mixin align-items($position) {
+    -webkit-box-align: $position;
+    -webkit-align-items: $position;
+        -ms-flex-align: $position;
+            align-items: $position;
+}
+
+@mixin align-content($position) {
+    -webkit-align-content: $position;
+        -ms-flex-line-pack: $position;
+            align-content: $position;
+}
+
+/**
+ * Button styles
+ */
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+    padding: $padding-vertical $padding-horizontal;
+    font-size: $font-size;
+    line-height: $line-height;
+    @include border-radius($border-radius);
+}
+
+@mixin button-variant($color, $background, $border) {
+    color: $color;
+    background-color: $background;
+    border: $border;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:disabled {
+        color: $color;
+        background-color: darken($background, 10%);
+        border: darken($background, 10%);
+    }
+}
