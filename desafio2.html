@@ -35,35 +35,38 @@
 					<div class="row">
 						<div class="col-md-4"></div>
 						<div class="col-md-4">
-							<input id="screen" type="number" class="form-control" disabled="true">
+							<form>
+								<input id="formula" type="text" class="form-control" disabled="true">
+								<input id="screen" type="text" class="form-control" disabled="true">
+							</form>
 							<div class="row">
 								<div class="col-md-3">
-									<button class="btn btn-default btnCal">CE</button>
-									<button class="btn btn-default btnCal">7</button>
-									<button class="btn btn-default btnCal">4</button>
-									<button class="btn btn-default btnCal">1</button>
-									<button class="btn btn-default btnCal">+-</button>
+									<button class="btn btn-default btnCalAction">CE</button>
+									<button class="btn btn-default btnCalNumber">7</button>
+									<button class="btn btn-default btnCalNumber">4</button>
+									<button class="btn btn-default btnCalNumber">1</button>
+									<button class="btn btn-default btnCalAction">+-</button>
 								</div>
 								<div class="col-md-3">
-									<button class="btn btn-default btnCal">C</button>
-									<button class="btn btn-default btnCal">8</button>
-									<button class="btn btn-default btnCal">5</button>
-									<button class="btn btn-default btnCal">2</button>
-									<button class="btn btn-default btnCal">0</button>
+									<button class="btn btn-default btnCalAction">C</button>
+									<button class="btn btn-default btnCalNumber">8</button>
+									<button class="btn btn-default btnCalNumber">5</button>
+									<button class="btn btn-default btnCalNumber">2</button>
+									<button class="btn btn-default btnCalNumber">0</button>
 								</div>
 								<div class="col-md-3">
-									<button class="btn btn-default btnCal">Del</button>
-									<button class="btn btn-default btnCal">9</button>
-									<button class="btn btn-default btnCal">6</button>
-									<button class="btn btn-default btnCal">3</button>
-									<button class="btn btn-default btnCal">,</button>
+									<button class="btn btn-default btnCalAction">Del</button>
+									<button class="btn btn-default btnCalNumber">9</button>
+									<button class="btn btn-default btnCalNumber">6</button>
+									<button class="btn btn-default btnCalNumber">3</button>
+									<button class="btn btn-default btnCalAction">,</button>
 								</div>
 								<div class="col-md-3">
-									<button class="btn btn-default btnCal">/</button>
-									<button class="btn btn-default btnCal">*</button>
-									<button class="btn btn-default btnCal">-</button>
-									<button class="btn btn-default btnCal">+</button>
-									<button class="btn btn-default btnCal">=</button>
+									<button class="btn btn-default btnCalAction">/</button>
+									<button class="btn btn-default btnCalAction">*</button>
+									<button class="btn btn-default btnCalAction">-</button>
+									<button class="btn btn-default btnCalAction">+</button>
+									<button id="btnResultado" class="btn btn-default btnCalAction">=</button>
 								</div>
 							</div>
 						</div>

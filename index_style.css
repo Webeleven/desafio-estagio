@@ -46,6 +46,6 @@
 
 }
 
-.btnCal{
+.btnCalAction, .btnCalNumber{
     width: 100%;
 }
