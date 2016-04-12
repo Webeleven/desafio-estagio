@@ -1,0 +1,51 @@
+.top-bar {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    float: left;
+    padding: 8px 0;
+    width: 100%;
+
+    background-color: #000;
+}
+
+.nav-section{
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    float: left;
+    padding: 14px 0px 2px 0px;
+    width: 100%;
+}
+
+.nav-section, .main-head {
+    background: #0b0b0b !important;
+}
+
+.left-side{
+    float: left;
+}
+
+.right-side{
+    float: right;
+}
+
+.body-section{
+    float: left;
+    padding: 14px 0px 0px 15%;
+}
+
+.row{
+    padding: 0px 0px 20px 0px;
+}
+
+#inputNumbers{
+    padding: 0px 0px 0px 0px;
+    height: 250px;
+    overflow: auto;
+}
+
+.run{
+    margin-top: 7px;
+
+}
+
+.btnCalAction, .btnCalNumber{
+    width: 100%;
+}
