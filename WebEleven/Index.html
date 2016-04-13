@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Calculadora</title>
+	<meta charset="utf-8"></meta>
+</head>
+<body>
+	<form method="post" action="Calcular.php">
+		<fieldset>
+			<legend>Calculadora</legend>
+			<label for="valor1">Valor 1</label>
+			<input required type="text" name="valor1"/>
+			<br />
+			<br />
+			<label for="valor2">Valor 2</label>			
+			<input required type="text" name="valor2"/>
+			<br/>
+			<br/>
+			<select name="operacao">
+			    <option VALUE="somar">Somar</option>
+			    <option VALUE="subtrair">Subtrair</option>
+		        <option VALUE="multiplicar">Multiplicar</option>   
+		        <option VALUE="dividir">Dividir</option>   
+		    </select>
+
+			<p><input type="submit" value="Calcular" />			
+		</fieldset>
+	</form>	
+</body>
+</html>

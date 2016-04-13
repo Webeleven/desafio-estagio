@@ -1,0 +1,6 @@
+C:\Users\wesle\Desktop\WebEleven\WebEleven_MenorMaior\WebEleven_MenorMaior\bin\Debug\WebEleven_MenorMaior.exe.config
+C:\Users\wesle\Desktop\WebEleven\WebEleven_MenorMaior\WebEleven_MenorMaior\bin\Debug\WebEleven_MenorMaior.exe
+C:\Users\wesle\Desktop\WebEleven\WebEleven_MenorMaior\WebEleven_MenorMaior\bin\Debug\WebEleven_MenorMaior.pdb
+C:\Users\wesle\Desktop\WebEleven\WebEleven_MenorMaior\WebEleven_MenorMaior\obj\Debug\WebEleven_MenorMaior.csprojResolveAssemblyReference.cache
+C:\Users\wesle\Desktop\WebEleven\WebEleven_MenorMaior\WebEleven_MenorMaior\obj\Debug\WebEleven_MenorMaior.exe
+C:\Users\wesle\Desktop\WebEleven\WebEleven_MenorMaior\WebEleven_MenorMaior\obj\Debug\WebEleven_MenorMaior.pdb
