@@ -7,22 +7,54 @@
         
         <form method="POST" action="">
             
-            <input type="text" name=""/>
+            <input type="text" name="num1"/>
+            <input type="text" name="num2"/>
             
             <br>
             
-            <input type="radio" name="calc" value"soma">Soma
-            <input type="radio" name="calc" value"subtracao">Subtração
-            <input type="radio" name="calc" value"multiplicacao">Multiplicação
-            <input type="radio" name="calc" value"divisao">Divisão
+            <input type="radio" name="calc" value="soma">Soma
+            <input type="radio" name="calc" value="subtr">Subtração
+            <input type="radio" name="calc" value="mult">Multiplicação
+            <input type="radio" name="calc" value="div">Divisão
             
             <br>
             
-            <input type="submit" value="Submit"/>
+            <input type="submit" value="Calcular">
             
         </form>
         
         <?php
+        
+        if ( !empty($_POST)) {
+            
+            $num1 = $_POST["num1"];
+            $num2 = $_POST["num2"];
+            $calc = $_POST["calc"];
+            
+            switch ($calc) {
+                case 'soma':
+                    $res = $num1 + $num2;
+                    echo "$num1 + $num2 = $res";
+                    break;
+                    
+                case 'subtr':
+                    $res = $num1 - $num2;
+                    echo "$num1 - $num2 = $res";
+                    break;
+                    
+                case 'mult':
+                    $res = $num1 * $num2;
+                    echo "$num1 * $num2 = $res";
+                    break;
+                    
+                case 'div':
+                    $res = $num1 / $num2;
+                    echo "$num1 / $num2 = $res";
+                    break;
+                
+            }
+            
+        }
         
         ?>
         
