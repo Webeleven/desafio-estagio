@@ -35,13 +35,13 @@
 			$resultado = Calculadora::somar($num1, $num2);
 			break;
 		  case "subtracao":
-		    $resultado = Calculadora::subtrair($num1, $num2);
+		    	$resultado = Calculadora::subtrair($num1, $num2);
 			break;
 		  case "mult":
-		    $resultado = Calculadora::multiplicar($num1, $num2);
+		    	$resultado = Calculadora::multiplicar($num1, $num2);
 			break;
 		  case "divisao":
-		    $resultado = Calculadora::dividir($num1, $num2);
+		    	$resultado = Calculadora::dividir($num1, $num2);
 			break;
 	  }
 	  
