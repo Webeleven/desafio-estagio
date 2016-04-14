@@ -8,7 +8,7 @@
 
 <body>
   <form name="calculadora" method="POST">
-    Número 1: <input type="text" name="num1" /> <br/>
+    	Número 1: <input type="text" name="num1" /> <br/>
 	Número 2: <input type="text" name="num2" /> <br/>
 	
 	<input type="radio" name="operacao" value="soma" /> Soma <br/>
