@@ -1,0 +1,62 @@
+<html>
+    
+    <head>
+        <title>Desafio 1</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        
+        <?php
+        
+        if ( empty($_POST) ) {
+        
+        ?>
+        
+        <form method="POST" action="">
+            
+            Digite um número inteiro: 
+            <input type="text" name="num"/>
+            
+            <input type="submit" value="Enviar"/>
+            
+        </form>
+        
+        <?php
+        
+        } elseif ( empty($_POST["number"]) ) {
+            
+            $num = intval($_POST["num"]);
+            $numbers = range(0, ($num-1));
+        
+        ?>
+        
+        <form method="POST" action="">
+            
+            <?php echo "Digite uma sequência de $num números inteiros separados por vírgula:"; ?>
+            <br>
+            <input type="text" name="number"/>
+            
+            <input type="submit" value="Enviar"/>
+            
+        </form>
+        
+        <?php
+        
+            } else {
+                
+                $numbers = explode(",", $_POST["number"]);
+                $sequence = $_POST["number"];
+                
+                echo "$sequence <br>";
+                echo "Maior número = ", max($numbers);
+                echo "<br>";
+                echo "Menor número = ", min($numbers);
+            
+            }
+        
+        ?>
+        
+    </body>
+    
+</html>
