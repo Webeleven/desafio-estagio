@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contador e verificador maior ou menor - JavaScript</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+<h3>
+<p id="resultadoMaior">
+</p>
+<br>
+<p id="resultadoMenor">
+
+</p>
+
+	</h3>
+
+<script>
+        var n = prompt('Digite a quantidade de numeros a serem informados !')//Contador
+        n=Number(n);//Conversão String para Number(Numerico)
+        
+        var num= new Array (n);
+        
+        //Informando valores
+        
+        for(i=0;i<n;i++){
+            num[i]=prompt('Informe os numeros a serem comparados');
+            num[i]=Number(num[i]);
+        } 
+        // Verificação Maior .
+        
+        var maior = Math.max.apply(null, num );
+        
+        var menor = Math.min.apply(null,num);
+        
+        //Apresentando numero maior        
+        
+        var resultadomaior = maior + '<br>';
+        var escrever = document.getElementById('resultadoMaior');      
+        resultadomaior += 'Este é o numero maior'; 
+        escrever.innerHTML = resultadomaior; 
+               
+        //Apresentando numero menor
+        
+        var resultadomenor = menor + '<br>';
+        var escrever = document.getElementById('resultadoMenor');
+        resultadomenor += 'Este é o numero menor';
+        escrever.innerHTML = resultadomenor;
+       
+        	
+</script>
+
+</body>
+</html>
