@@ -1,0 +1,7 @@
+Bom dia,
+
+No arquivo do "Contador" resolvi deixar o JavaScript junto ao html para melhor visualização do código-fonte.
+
+Mesmo sabendo que não seria uma boa pratica em outro tipo de código.
+
+Obrigado pela oportunidade.
