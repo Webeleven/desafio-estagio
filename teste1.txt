@@ -1,0 +1,15 @@
+#!/usr/bin/python
+ # - * - Coding: iso-8859-15 - * -
+j = int(raw_input("Digite a quantidade de numeros da sequencia: "))
+n = int(raw_input("Digite um numero inteiro principal: "))
+i = 1
+while i <= j:
+	i += 1
+	numero = int(raw_input("Digite um numero inteiro:"))
+	if numero > n:
+ 		maior = numero 
+	if numero < n:
+ 		menor = numero
+ 
+print ("Maior numero =",maior)
+print ("Menor numero =",menor) 
