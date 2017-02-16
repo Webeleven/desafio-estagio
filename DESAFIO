@@ -1,0 +1,101 @@
+-------------------------------- DESAFIO 1 -----------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite a quantidade de numeros");
+            int qtd = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite um numero: ");
+            var numero = Convert.ToInt32(Console.ReadLine());
+
+            int maior = numero;
+            int menor = numero;
+            for (int i = 1; i < qtd; i++)
+            {
+                Console.WriteLine("Digite um numero: ");
+                numero = Convert.ToInt32(Console.ReadLine());
+                if (numero > maior)
+                {
+                    maior = numero;
+                }
+
+                if (numero < menor)
+                {
+                    menor = numero;
+                }
+
+            }
+
+            Console.WriteLine("O maior numero é : "+maior);
+            Console.WriteLine("O menor numero é :" + menor);
+
+            Console.ReadKey();
+        }
+    }
+}
+ 
+ 
+ ----------------- DESAFIO 2 --------------------------------
+ 
+ 
+ <html> 
+    <head> 
+        <title>Calculadora Básica</title> 
+    </head> 
+ 
+    <body> 
+        <form action="" method="post">
+ 
+           <span>Primero Numero</span> 
+            <input name="numero1" type="text" /> 
+            <br /> <br /> 
+             
+            <span>Segundo numero</span> 
+            <input name="numero2" type="text" /> 
+            <br /> <br /> 
+             
+            <span>Operacao</span>  
+            <input type="radio" name="rdb" value="soma" checked> Somar<br>
+            <input type="radio" name="rdb" value="sub" > Subtrair<br>
+            <input type="radio" name="rdb" value="div" > Dividir<br>
+            <input type="radio" name="rdb" value="mult" > Multiplicar<br>            
+            <input type="submit" value="Calcular" />     
+            <br /> <br /> 
+             
+        </form> 
+    </body> 
+</html>
+
+
+<?php
+
+$numero1 = $_POST["numero1"];
+$numero2 = $_POST["numero2"];
+$op = $_POST["rdb"];
+
+if($op=="soma"):
+    $resul = $numero1 + $numero2;
+
+elseif($op=="sub"):
+    $resul = $numero1 - $numero2;
+
+
+elseif($op=="mult"):
+    $resul = $numero1*$numero2;
+
+
+else:
+    $resul = $numero1/$numero2;
+
+endif;
+
+echo "O resultado e: ".$resul;
+?>
